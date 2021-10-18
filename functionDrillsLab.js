@@ -181,7 +181,16 @@ let loser = 'Glimmer'
   The function should loop over the array of contestant names. If the loser string appears in the array, splice it out. Return the new contestants array.
 */
 
-//CODE HERE
+function theEliminator(contestants, loser){
+  for (i = 0; i < contestants.length; i++){
+    if (contestants[i] === loser){
+      contestants.splice(i, 1)
+    }
+  }
+  return contestants
+}
+
+let updatedContestants = theEliminator(contestants, loser)
 
 
 ////////////////// PROBLEM 11 ////////////////////
