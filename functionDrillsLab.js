@@ -191,6 +191,7 @@ function theEliminator(contestants, loser){
 }
 
 let updatedContestants = theEliminator(contestants, loser)
+console.log(updatedContestants)
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -200,7 +201,13 @@ let sampleString = "Hi, my name is Kylo."
   Invoke the function, passing in the sampleString (above).
 */
 
-//CODE HERE
+function makeUppercase(str){
+  console.log(str.toUpperCase())
+}
+
+makeUppercase(sampleString)
+
+console.log(sampleString)
 
 
 ////////////////// PROBLEM 12 ////////////////////
